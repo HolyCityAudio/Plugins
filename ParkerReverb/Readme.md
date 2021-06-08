@@ -4,6 +4,11 @@ https://github.com/supercollider/sc3-plugins/tree/main/source/DEINDUGens/faust_s
 
 https://github.com/HolyCityAudio/Plugins/blob/main/ParkerReverb/jpreverb.jpg
 
+The cpp and jucer file were created from the DSP file using faust2juce.
+There are some hand edits to the cpp file to change the default background color and the dialog name.
+
+Use the cpp and jucer file with JUCE compiled by Visual Studio 2019.
+
 * Early diff - early diffusion.  Below 0.707, noticeably rough attack.
 * Size - "size" of the simulated space.  Adjusting in real time gives a slight pitch bend.
 * t60 - reverb time.  Can get really long but one of the bands in the EQ section also has to be turned closer to 1.0.
@@ -16,6 +21,5 @@ https://github.com/HolyCityAudio/Plugins/blob/main/ParkerReverb/jpreverb.jpg
 * mFreq - frequency
 
 To be honest I cannot hear any impact of changing the Modulation settings.  I'm not convinced it's working properly.
-
 
 ![alt text](https://github.com/HolyCityAudio/Plugins/blob/main/ParkerReverb/jpreverb.jpg?raw=true)
