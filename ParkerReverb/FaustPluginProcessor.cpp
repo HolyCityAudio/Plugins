@@ -15123,7 +15123,7 @@ class mydsp : public dsp {
 	}
 	
 	virtual void buildUserInterface(UI* ui_interface) {
-		ui_interface->openVerticalBox("Julian Parker Reverb 2013 by Holy City Audio");
+		ui_interface->openVerticalBox("Julian Parker Reverb 2013 by Holy City Audio v1.00");
 		ui_interface->declare(0, "01", "");
 		ui_interface->openVerticalBox("Mix");
 		ui_interface->openHorizontalBox("0x00");
