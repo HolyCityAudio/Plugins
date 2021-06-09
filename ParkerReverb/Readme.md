@@ -2,6 +2,12 @@ VST3 and standalone Windows x64 application for Julian Parker's Faust reverb "JP
 
 https://github.com/supercollider/sc3-plugins/tree/main/source/DEINDUGens/faust_src
 
+To install the VST3 file, copy it to your VST3 plugins folder, e.g. 
+
+C:\Program Files\Common Files\VST3
+
+You can make folders under this one and (perhaps depending on your DAW settings) they will be found.  Using Ableton Live, I have to close the program before copying the VST3 file to this location.
+
 https://github.com/HolyCityAudio/Plugins/blob/main/ParkerReverb/jpreverb.jpg
 
 The cpp and jucer file were created from the DSP file using faust2juce.
